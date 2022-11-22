@@ -1,0 +1,115 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+nav ul li a{
+    color:rgb(251, 247, 247);
+    background-color: rgb(0, 0, 0);
+    font-size:20px;
+    padding: 0px 10px;
+    border:1px solid;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: courier;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color:beige;
+}
+
+nav li{
+    display: inline-block;
+}
+header{
+
+}
+.fondo-header{
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 100%;
+}
+.main_conteiner{
+    background-image:url(../assets/images/BEBIDAS/BEBIDAS/drink-vintage-alcohol-whisky-whiskey-bottle-624581-wallhere.com.jpg);
+    background-attachment:local;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;   
+}
+.main__conteiner__welcome{
+    color: white;
+    width: 600px;
+    background-color: rgb(220, 203, 23);
+    text-align: center;
+}
+.main__conteiner__botones{
+    color: white;
+    width: 130px;
+}
+.botonesmain{
+    padding: 10px;
+    background-color: rgb(191, 97, 97);
+    border: 2px solid;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 400%;
+}
+
+
+.footer{
+    color:white;
+    background-image:url(../assets/images/BEBIDAS/BEBIDAS/filip-mishevski-LFbkXVlwT1k-unsplash.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: "courier new";
+}
+
+p{
+    color:white;
+    margin: auto;
+
+}
+.alineacion{
+    display: flex;
+    padding: 3% 2% 3%;
+    margin: auto 0;   
+}
+.ali2{
+    padding-right: 2%;
+}
+
+#carbot{
+    color: #000;
+    text-align: right;
+}
+
+
+.alineacion-botones{
+    text-align: center;
+}
+.imgmain{
+    width: 200%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.texto-contacto{
+    text-align: center; 
+}
+.iconos-contacto{
+    text-align: center;
+    padding-top: 50px;
+}
+.css-formulario{
+    padding-top: 50px;
+}
